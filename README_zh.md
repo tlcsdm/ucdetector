@@ -1,22 +1,22 @@
 # UCDetector
 
-UCDetector (Unnecessary Code Detector - pronounced "You See Detector") is a eclipse PlugIn tool to find unnecessary (dead) public java code. For example public classes, methods or fields which have no references. UCDetector creates markers for the following problems, which appear in the eclipse problem view:
-* Unnecessary (dead) code
-* Code where the visibility could be changed to protected, default or private
-* Methods or fields, which can be final
+UCDetector（不必要的代码检测器 - 发音为“You See Detector”）是一个 eclipse 插件工具，用于查找不必要的（死的）公共 Java 代码。例如，没有引用的公共类、方法或字段。UCDetector 为以下问题创建标记，这些问题出现在 eclipse 问题视图中：
+* 不必要的（死的）代码
+* 可见性可以更改为受保护、默认或私有的代码
+* 方法或字段，可以是 final
 
-Go to UCDetector web site for more screenshots and other information: http://www.ucdetector.org/index.html
+请访问 UCDetector 网站获取更多屏幕截图和其他信息：http://www.ucdetector.org/index.html
 
-# How to install
+# 如何安装
 
 **Update Site:**
 
-Create a new update site in Eclipse with the following:
+在 Eclipse 中创建一个新的更新站点，内容如下：
 
 * Site name:  ``Tlcsdm UCDetector``
 * Site URL:   ``https://raw.githubusercontent.com/tlcsdm/ucdetector/master/org.ucdetector.update_site/site.xml``
 
-**Manual Install:**
+**手动安装：**
 
-Download the plugin jar and copy it to Eclipse plugins directory. The jar location is (replace ``<version>``): 
-``https://raw.githubusercontent.com/tlcsdm/ucdetector/master/org.ucdetector.update_site/plugins/org.ucdetector_<version>.jar``.   Alternatively, you can download the entire Update Site bundled with everything else in the release link above and create a new update site in Eclipse, pointing to your local directory where you expanded the release.
+下载插件 jar 并将其复制到 Eclipse 插件目录。jar 位置为（替换 ``<version>``）：
+``https://raw.githubusercontent.com/tlcsdm/ucdetector/master/org.ucdetector.update_site/plugins/org.ucdetector_<version>.jar``。或者，您可以下载上面发布链接中捆绑的所有其他内容的整个更新站点，并在 Eclipse 中创建一个新的更新站点，指向您展开发布的本地目录。
