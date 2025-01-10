@@ -13,7 +13,7 @@ Go to UCDetector web site for more screenshots and other information: http://www
 
 Create a new update site in Eclipse with the following:
 
-* Site name:  ``UCDetector``
+* Site name:  ``Tlcsdm UCDetector``
 * Site URL:   ``https://raw.githubusercontent.com/tlcsdm/ucdetector/master/org.ucdetector.update_site/site.xml``
 
 **Manual Install:**
