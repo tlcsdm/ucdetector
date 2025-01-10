@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
       id="org.ucdetector.feature"
-      label="UCDetector For QE"
+      label="Tlcsdm UCDetector"
       version="2.0.1"
       provider-name="%providerName"
       plugin="org.ucdetector">
@@ -19,7 +19,7 @@
    </license>
 
    <url>
-      <update label="Unnecessary Code Detector Updates" url="http://ucdetector.sourceforge.net/update"/>
+      <update label="Unnecessary Code Detector Updates" url="https://raw.githubusercontent.com/tlcsdm/ucdetector/master/org.ucdetector.update_site"/>
    </url>
 
    <requires>

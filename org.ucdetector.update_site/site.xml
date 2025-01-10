@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site
-      digestURL="http://ucdetector.sourceforge.net/update">
-   <description name="UCDetector update site" url="http://ucdetector.sourceforge.net/update">
-      UCDetector update site
+      digestURL="https://raw.githubusercontent.com/tlcsdm/ucdetector/master/org.ucdetector.update_site">
+   <description name="Tlcsdm UCDetector update site" url="https://raw.githubusercontent.com/tlcsdm/ucdetector/master/org.ucdetector.update_site">
+      Tlcsdm UCDetector update site
    </description>
    <feature url="features/org.ucdetector.feature_2.0.1.jar" id="org.ucdetector.feature" version="2.0.1">
-      <category name="UCDetector"/>
+      <category name="Tlcsdm UCDetector"/>
    </feature>
-   <category-def name="UCDetector" label="UCDetector">
+   <category-def name="Tlcsdm UCDetector" label="Tlcsdm UCDetector">
       <description>
          UCDetector (Unnecessary Code Detector) finds unnecessary (dead) public java code. 
 Visit http://www.ucdetector.org/
+https://github.com/tlcsdm/ucdetector
       </description>
    </category-def>
 </site>
