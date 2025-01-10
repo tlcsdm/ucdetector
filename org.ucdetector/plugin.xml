@@ -13,7 +13,7 @@
   <extension point="org.eclipse.ui.preferencePages">
     <page name="%preferencePages.name"
         class="org.ucdetector.preferences.UCDetectorPreferencePage"
-        id="org.ucdetector.preferences.PreferencePage">
+        id="org.ucdetector.preferences.PreferencePage.tlcsdm">
     </page>
     <!--
     <page name="%preferencePages.name.keywords"
@@ -41,7 +41,7 @@
         id="org.ucdetector.popupMenus.project">
       <menu label="%popupMenus.root"
           path="additions"
-          id="ucdetectorGroup">
+          id="ucdetectorGroupTlcsdm">
       </menu>
 
     <!-- COUNT ============================ -->
@@ -51,7 +51,7 @@
         label="%CountAction.label"
         tooltip="%CountAction.tooltip"
         icon="icons/info_tsk.gif"
-        menubarPath="ucdetectorGroup/ucdetector"/>
+        menubarPath="ucdetectorGroupTlcsdm/ucdetector"/>
     
     <!-- CLEAN MARKERS ============================ -->
     <action class="org.ucdetector.action.CleanMarkersAction"
@@ -60,7 +60,7 @@
         label="%CleanMarkersAction.label"
         tooltip="%CleanMarkersAction.tooltip"
         icon="icons/delete_obj.gif"
-        menubarPath="ucdetectorGroup/ucdetector"/>
+        menubarPath="ucdetectorGroupTlcsdm/ucdetector"/>
 
     <!-- DETECT UC ============================ -->
     <action class="org.ucdetector.action.UCDetectorAction"
@@ -69,7 +69,7 @@
         label="%DetectAction.label"
         tooltip="%DetectAction.tooltip"
         icon="$nl$/icons/ucd.gif"
-        menubarPath="ucdetectorGroup/ucdetector"
+        menubarPath="ucdetectorGroupTlcsdm/ucdetector"
         definitionId="org.ucdetector.definitionId.ucd"/>
 
     <!-- DETECT CYCLE ============================ -->
@@ -79,7 +79,7 @@
         label="%CycleAction.label"
         tooltip="%CycleAction.tooltip"
         icon="icons/cycle.gif"
-        menubarPath="ucdetectorGroup/cycle"/>
+        menubarPath="ucdetectorGroupTlcsdm/cycle"/>
     </objectContribution>
   </extension>
 
@@ -94,7 +94,7 @@
         id="org.ucdetector.popupMenus.projectWorkingSet">
       <menu label="%popupMenus.root"
           path="additions"
-          id="ucdetectorGroup">
+          id="ucdetectorGroupTlcsdm">
       </menu>
 
     <!-- COUNT ============================ -->
@@ -104,7 +104,7 @@
         label="%CountAction.label"
         tooltip="%CountAction.tooltip"
         icon="icons/info_tsk.gif"
-        menubarPath="ucdetectorGroup/ucdetector"/>
+        menubarPath="ucdetectorGroupTlcsdm/ucdetector"/>
     
     <!-- CLEAN MARKERS ============================ -->
     <action class="org.ucdetector.action.CleanMarkersAction"
@@ -113,7 +113,7 @@
         label="%CleanMarkersAction.label"
         tooltip="%CleanMarkersAction.tooltip"
         icon="icons/delete_obj.gif"
-        menubarPath="ucdetectorGroup/ucdetector"/>
+        menubarPath="ucdetectorGroupTlcsdm/ucdetector"/>
 
     <!-- DETECT UC ============================ -->
     <action class="org.ucdetector.action.UCDetectorAction"
@@ -122,7 +122,7 @@
         label="%DetectAction.label"
         tooltip="%DetectAction.tooltip"
         icon="$nl$/icons/ucd.gif"
-        menubarPath="ucdetectorGroup/ucdetector"/>
+        menubarPath="ucdetectorGroupTlcsdm/ucdetector"/>
 
     <!-- DETECT CYCLE ============================ -->
     <action class="org.ucdetector.cycle.CycleAction"
@@ -131,7 +131,7 @@
         label="%CycleAction.label"
         tooltip="%CycleAction.tooltip"
         icon="icons/cycle.gif"
-        menubarPath="ucdetectorGroup/cycle"/>
+        menubarPath="ucdetectorGroupTlcsdm/cycle"/>
     </objectContribution>
   </extension>
     
